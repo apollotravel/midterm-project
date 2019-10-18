@@ -109,3 +109,9 @@ div.city_name{
     padding: 15px;
     text-align: center;
 }
+
+.responsiveDestinations {
+    margin: 10px;
+    max-width: 50%;
+    height: auto;
+}
