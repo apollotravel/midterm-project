@@ -96,3 +96,16 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+.city_column{
+              float: left; width: 33.33%; padding: 5px;
+}
+       
+@media screen and (max-width: 500px){
+     .city_column{
+          width: 100%;
+     }
+}
+div.city_name{
+    padding: 15px;
+    text-align: center;
+}
