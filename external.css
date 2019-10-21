@@ -1,7 +1,9 @@
 body, html {
+  font-family: sans-serif;
   background-color: #b0edf5;
 }
 h1 {
+  font-family: sans-serif;
   color: #FF9B42;
   font-size: 36px;
 }
