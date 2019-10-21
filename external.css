@@ -115,3 +115,17 @@ div.city_name{
     max-width: 50%;
     height: auto;
 }
+
+header {
+  background-color: #254E70;
+  position: fixed;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  font-size: 16px;
+  background-color: #b0edf5;
+  bottom: 5px;
+}
