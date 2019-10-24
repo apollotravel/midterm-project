@@ -113,7 +113,7 @@ div.city_name{
     text-align: center;
 }
 
-.rowDestinations 
+.rowDestinations
 {
    margin-left: auto;
    margin-right: auto;
@@ -130,7 +130,7 @@ div.city_name{
 }
 
 @media only screen and (min-width: 850px) {
-   .responsiveDestinations 
+   .responsiveDestinations
    {
        width: 45%;
        height: 35%;
@@ -166,4 +166,12 @@ footer {
   bottom: 0;
   left: 2px;
   right: 0;
+}
+
+.currentTab {
+  color: #FF9B42;
+}
+
+.notCurrentTab:hover {
+  color: #FF9B42;
 }
