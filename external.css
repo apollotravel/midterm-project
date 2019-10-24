@@ -113,7 +113,7 @@ div.city_name{
     text-align: center;
 }
 
-.row 
+.rowDestinations 
 {
    margin-left: auto;
    margin-right: auto;
@@ -140,7 +140,7 @@ div.city_name{
        border-style: groove;
        border-color: #000;
     }
-    .row {
+    .rowDestinations {
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
