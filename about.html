@@ -14,13 +14,13 @@
         top: 200px;
       }
       .memberContainer {
+        vertical-align: middle;
         position: relative;
         display: inline-block;
-        top: 100px;
+        top: 20px;
         margin-left: 10px;
         margin-right: 10px;
         width: 20%;
-        font-family: "Times News Roman", serif;
       }
       .aboutParagraphContainer {
         width: 60%;
@@ -31,7 +31,7 @@
       }
 
       .box {
-          background-color: transparent; width: 250px; height: 250px; border: 1px solid #f1f1f1; perspective: 1000px;
+          background-color: transparent; width: 250px; height: 250px; perspective: 1000px;
       }
 
       .hover_box{
@@ -55,6 +55,9 @@
       }
       .memberText {
         text-align: center;
+      }
+      .teamContainer {
+        padding-top: 0px;
       }
     </style>
 
@@ -147,7 +150,7 @@
 
                 $("#brian").append('<div class = "box_storage" id = "inner_brian"></div>');
                 $("#inner_brian").append('<div class = "flip-box-front" id = "pic_storage_brian"></div>');
-                $("#pic_storage_brian").append('<img src = "" id = "pic_brian" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
+                $("#pic_storage_brian").append('<img src = "" id = "pic_brian" style = "width: 250px; height: 250px;">');
                 var image = "608A0375.jpeg";
                 $("#pic_brian").attr("src", image);
                 var information = '<p>'+"Where am I: New York <br> <br> Favorite Cities: London, Amsterdam, Barcelona"+'</p>';
@@ -156,7 +159,7 @@
 
                 $("#angela").append('<div class = "box_storage" id = "inner_angela"></div>');
                 $("#inner_angela").append('<div class = "flip-box-front" id = "pic_storage_angela"></div>');
-                $("#pic_storage_angela").append('<img src = "" id = "pic_angela" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
+                $("#pic_storage_angela").append('<img src = "" id = "pic_angela" style = "width: 250px; height: 250px;">');
                 var image_2 = "A5D648EC-AE3D-45B0-8CC9-E42C82F22667.JPG";
                 $("#pic_angela").attr("src", image_2);
                 var information_2 = '<p>'+"Where am I: Nashville <br> <br> Favorite Cities: New York City, London, Summit, NJ"+'</p>';
@@ -165,7 +168,7 @@
 
                 $("#eric").append('<div class = "box_storage" id = "inner_eric"></div>');
                 $("#inner_eric").append('<div class = "flip-box-front" id = "pic_storage_eric"></div>');
-                $("#pic_storage_eric").append('<img src = "" id = "pic_eric" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
+                $("#pic_storage_eric").append('<img src = "" id = "pic_eric" style = "width: 250px; height: 250px;">');
                 var image_3 = "IMG_1288.JPG";
                 $("#pic_eric").attr("src", image_3);
                 var information_3 = '<p>'+"Where am I: Hong Kong <br> <br> Favorite Cities: New York City, Medford, Vancouver"+'</p>';
@@ -174,7 +177,7 @@
 
                 $("#daniel").append('<div class = "box_storage" id = "inner_daniel"></div>');
                 $("#inner_daniel").append('<div class = "flip-box-front" id = "pic_storage_daniel"></div>');
-                $("#pic_storage_daniel").append('<img src = "" id = "pic_daniel" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
+                $("#pic_storage_daniel").append('<img src = "" id = "pic_daniel" style = "width: 250px; height: 250px;">');
                 var image_4 = "LRG_DSC04658.JPG";
                 $("#pic_daniel").attr("src", image_4);
                 var information_4 = '<p>'+"Where am I: Lisbon <br> <br> Favorite Cities: LA, Madrid, Toronto"+'</p>';
