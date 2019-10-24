@@ -9,6 +9,7 @@
 
     <style>
       .aboutContainer {
+        z-index: 0;
         position: relative;
         top: 200px;
       }
@@ -32,7 +33,7 @@
       .box {
           background-color: transparent; width: 250px; height: 250px; border: 1px solid #f1f1f1; perspective: 1000px;
       }
-      
+
       .hover_box{
           transform: rotateY(180deg);
       }
@@ -52,9 +53,8 @@
       .flip-box-back {
           background-color: #254E70; color: #FF9B42; transform: rotateY(180deg);
       }
-
-      p{
-
+      .memberText {
+        text-align: center;
       }
     </style>
 
@@ -89,18 +89,20 @@
     <div class="aboutContainer">
     <div class="aboutParagraphContainer">
       <h2>ABOUT US</h2>
-      <p>We are a company that helps people travel. When customers book their plans with us, we do our best to ensure that the 
+      <p>We are a company that helps people travel. When customers book their plans with us, we do our best to ensure that the
           only thing they need to worry about is having fun in every moment of their experience. We have networks that span across the globe, which allow us to create immersive cultural experiences for our customers. We are not just a travel agency to our customers. We are the best travel companion.</p>
     </div>
 
     <div class="teamContainer">
       <div class="memberContainer" id="brianContainer">
           <div class = "column" id = "demo">
-                    <div class = "box" id = "bryan">
+                    <div class = "box" id = "brian">
                     </div>
-                    <div>
-                            <p>Bryan Savage</p>
+                    <div class="memberText">
+                      <center>
+                            <p>Brian Savage</p>
                             <p>Chief Executive Officer</p>
+                      <center>
                     </div>
                 </div>
       </div>
@@ -143,44 +145,44 @@
     <script>
             $(document).ready(function(){
 
-                $("#bryan").append('<div class = "box_storage" id = "inner_bryan"></div>'); 
-                $("#inner_bryan").append('<div class = "flip-box-front" id = "pic_storage_bryan"></div>'); 
-                $("#pic_storage_bryan").append('<img src = "" id = "pic_bryan" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
-                var image = "/Users/chaniel/Desktop/608A0375.jpeg";
-                $("#pic_bryan").attr("src", image);
-                var information = '<p>'+"Wher am I: New York <br> <br> Favorite Cities: London, Amsterdam, Barcelona"+'</p>';
-                $("#inner_bryan").append('<div class = "flip-box-back" id = "info_bryan"></div>');
-                $("#info_bryan").append(information); 
+                $("#brian").append('<div class = "box_storage" id = "inner_brian"></div>');
+                $("#inner_brian").append('<div class = "flip-box-front" id = "pic_storage_brian"></div>');
+                $("#pic_storage_brian").append('<img src = "" id = "pic_brian" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
+                var image = "608A0375.jpeg";
+                $("#pic_brian").attr("src", image);
+                var information = '<p>'+"Where am I: New York <br> <br> Favorite Cities: London, Amsterdam, Barcelona"+'</p>';
+                $("#inner_brian").append('<div class = "flip-box-back" id = "info_brian"></div>');
+                $("#info_brian").append(information);
 
-                $("#angela").append('<div class = "box_storage" id = "inner_angela"></div>'); 
-                $("#inner_angela").append('<div class = "flip-box-front" id = "pic_storage_angela"></div>'); 
+                $("#angela").append('<div class = "box_storage" id = "inner_angela"></div>');
+                $("#inner_angela").append('<div class = "flip-box-front" id = "pic_storage_angela"></div>');
                 $("#pic_storage_angela").append('<img src = "" id = "pic_angela" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
-                var image_2 = "/Users/chaniel/Desktop/A5D648EC-AE3D-45B0-8CC9-E42C82F22667.JPG";
+                var image_2 = "A5D648EC-AE3D-45B0-8CC9-E42C82F22667.JPG";
                 $("#pic_angela").attr("src", image_2);
                 var information_2 = '<p>'+"Where am I: Nashville <br> <br> Favorite Cities: New York City, London, Summit, NJ"+'</p>';
                 $("#inner_angela").append('<div class = "flip-box-back" id = "info_angela"></div>');
-                $("#info_angela").append(information_2); 
+                $("#info_angela").append(information_2);
 
-                $("#eric").append('<div class = "box_storage" id = "inner_eric"></div>'); 
-                $("#inner_eric").append('<div class = "flip-box-front" id = "pic_storage_eric"></div>'); 
+                $("#eric").append('<div class = "box_storage" id = "inner_eric"></div>');
+                $("#inner_eric").append('<div class = "flip-box-front" id = "pic_storage_eric"></div>');
                 $("#pic_storage_eric").append('<img src = "" id = "pic_eric" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
-                var image_3 = "/Users/chaniel/Desktop/IMG_1288.JPG";
+                var image_3 = "IMG_1288.JPG";
                 $("#pic_eric").attr("src", image_3);
                 var information_3 = '<p>'+"Where am I: Hong Kong <br> <br> Favorite Cities: New York City, Medford, Vancouver"+'</p>';
                 $("#inner_eric").append('<div class = "flip-box-back" id = "info_eric"></div>');
                 $("#info_eric").append(information_3);
 
-                $("#daniel").append('<div class = "box_storage" id = "inner_daniel"></div>'); 
-                $("#inner_daniel").append('<div class = "flip-box-front" id = "pic_storage_daniel"></div>'); 
+                $("#daniel").append('<div class = "box_storage" id = "inner_daniel"></div>');
+                $("#inner_daniel").append('<div class = "flip-box-front" id = "pic_storage_daniel"></div>');
                 $("#pic_storage_daniel").append('<img src = "" id = "pic_daniel" style = "width: 250px; height: 250px; border-style: groove; border-color: #2B3856;">');
-                var image_4 = "/Users/chaniel/Desktop/LRG_DSC04658.JPG";
+                var image_4 = "LRG_DSC04658.JPG";
                 $("#pic_daniel").attr("src", image_4);
                 var information_4 = '<p>'+"Where am I: Lisbon <br> <br> Favorite Cities: LA, Madrid, Toronto"+'</p>';
                 $("#inner_daniel").append('<div class = "flip-box-back" id = "info_daniel"></div>');
                 $("#info_daniel").append(information_4);
 
             });
-            
+
             $(document).ready(function(){
                 $(".box_storage").hover(function(){
                     $(this).toggleClass("hover_box");
