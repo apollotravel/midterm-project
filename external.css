@@ -113,10 +113,39 @@ div.city_name{
     text-align: center;
 }
 
+.row 
+{
+   margin-left: auto;
+   margin-right: auto;
+}
+
 .responsiveDestinations {
-    margin: 10px;
-    max-width: 50%;
-    height: auto;
+   width: 70%;
+   height: 35%;
+   margin: 7px;
+   margin-top: 14px;
+   border-radius: 5px;
+   border-style: groove;
+   border-color: #000;
+}
+
+@media only screen and (min-width: 850px) {
+   .responsiveDestinations 
+   {
+       width: 45%;
+       height: 35%;
+       margin-left: 7px;
+       margin-top: 14px;
+       border-radius: 5px;
+       border-style: groove;
+       border-color: #000;
+    }
+    .row {
+       display: inline-block;
+       margin-left: auto;
+       margin-right: auto;
+       height: 35%;
+    }
 }
 
 header {
