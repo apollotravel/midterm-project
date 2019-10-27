@@ -10,14 +10,14 @@
      <script type="text/javascript">
         $(document).ready(function () {
            $("#ParisPhoto").hover(function () {
-              $("#ParisPhoto").stop().animate({opacity: .3}, 200);
+              $("#ParisPhoto").stop().animate({opacity: .3; z-index: -100}, 200);
            }, function () {
-              $("#ParisPhoto").stop().animate({opacity: 1}, 500);
+              $("#ParisPhoto").stop().animate({opacity: 1; z-index: 100}, 500);
            });
            $("#SingaporePhoto").hover(function () {
-              $("#SingaporePhoto").stop().animate({opacity: .3}, 200);
+              $("#SingaporePhoto").stop().animate({opacity: .3; z-index: -100}, 200);
            }, function () {
-              $("#SingaporePhoto").stop().animate({opacity: 1}, 500);
+              $("#SingaporePhoto").stop().animate({opacity: 1; ; z-index: 100}, 500);
            });
           
            $("#ParisPhoto").hover(function () {
@@ -65,10 +65,10 @@
             <a href="asia.html"><img class="responsiveDestinations" id="SingaporePhoto" src="singapore.jpg">   </img></a>
         </center>
     </div>
-    <div class="rowDestinations" style="margin-top: -45%; width: 100%; z-index: 100">
+    <div class="rowDestinations" style="margin-top: -45%; width: 100%; z-index: 50">
         <center>
-            <h1 class="responsiveDestinations" id="EuropeanInfo" style="float:left; color: #FFF">European</h1>
-            <h1 class="responsiveDestinations" id="AsianInfo" style="float:right; color: #FFF>Asian</h1>
+            <h1 class="responsiveDestinations" id="EuropeanInfo" style="float:left; color: #FFF; opacity: 0">European</h1>
+            <h1 class="responsiveDestinations" id="AsianInfo" style="float:right; color: #FFF; opacity: 0">Asian</h1>
         </center>
     </div>
 
