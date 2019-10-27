@@ -12,6 +12,7 @@
            $("#ParisPhoto").hover(function () {
               $("#ParisPhoto").stop().animate({opacity: .3}, 200);
               $("#EuropeanInfo").css("z-index", 2);
+              $("#EuropeanInfo").css("opacity", 1);
            }, function () {
               $("#ParisPhoto").stop().animate({opacity: 1}, 500);
               $("#EuropeanInfo").css("z-index", -1);
@@ -19,6 +20,7 @@
            $("#SingaporePhoto").hover(function () {
               $("#SingaporePhoto").stop().animate({opacity: .3}, 200);
               $("#AsianInfo").css("z-index", 2);
+              $("#AsianInfo").css("opacity", 1);
            }, function () {
               $("#SingaporePhoto").stop().animate({opacity: 1}, 500);
               $("#AsianInfo").css("z-index", -1);
@@ -60,8 +62,8 @@
     </div>
     <div class="rowDestinations" style="margin-top: -35%; width: 100%; z-index: -1">
         <center>
-            <h1 class="responsiveDestinations" id="EuropeanInfo" style="float:left">European</h1>
-            <h1 class="responsiveDestinations" id="AsianInfo" style="float:right">Asian</h1>
+            <h1 class="responsiveDestinations" id="EuropeanInfo" style="float:left; color: #FFF">European</h1>
+            <h1 class="responsiveDestinations" id="AsianInfo" style="float:right; color: #FFF">Asian</h1>
         </center>
     </div>
 
