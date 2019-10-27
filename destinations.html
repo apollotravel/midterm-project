@@ -10,14 +10,14 @@
          $(document).ready(function () {
             $("#ParisPhoto").hover(function () {
               $("#ParisPhoto").stop().animate({
-                 opacity: .6
+                 opacity: .3
               }, 200);
-              $("#ParisPhoto").removeClass('hide');
+              $("#ParisPhoto).HTML("European Destinations");
             }, function () {
               $("#ParisPhoto").stop().amimate({
                   opacity: 1
               }, 500);
-              $("#EuropeInfo").addClass('hide');
+              $("#EuropeInfo").HTML("");
             });
          });
      </script>
@@ -54,11 +54,11 @@
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <div class="rowDestinations">
         <center>
-          <div style="position: absolutely">
+          <div>
             <a href="europe.html"><img class="responsiveDestinations" id="ParisPhoto" src="paris.jpg"> </img></a>
             <h1 class="textOverImage" id="EuropeInfo"> European Destinations </h1>
           </div>
-          <div style="position: absolutely">
+          <div>
             <a href="asia.html"><img class="responsiveDestinations" id="SingaporePhoto" src="singapore.jpg"> </img></a>
             <h1 class="textOverImage" id="AsiaInfo"> Asian Destinations </h1>
           </div>
