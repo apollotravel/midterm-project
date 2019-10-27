@@ -115,10 +115,11 @@ div.city_name{
 
 .rowDestinations
 {
-       display: inline-block;
-       margin-left: auto;
-       margin-right: auto;
-       height: 45%;
+   margin-top: -10%;
+   display: inline-block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 45%;
 }
 
 .responsiveDestinations {
@@ -136,17 +137,18 @@ div.city_name{
    {
        width: 45%;
        height: 100%;
-       margin-left: 7px;
-       margin-top: 60px;
-       border-radius: 5px;
+       margin-left: 2%;
+       margin-top: -10%;
+       border-radius: 0.3%;
        border-style: groove;
        border-color: #000;
     }
     .rowDestinations {
+       margin-top: -10%;
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
-       height: 45%;
+       height: 140%;
     }
 }
 
