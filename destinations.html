@@ -11,13 +11,17 @@
         $(document).ready(function () {
            $("#ParisPhoto").hover(function () {
               $("#ParisPhoto").stop().animate({opacity: .3}, 200);
+              $("#EuropeanInfo").css("z-index", 2);
            }, function () {
               $("#ParisPhoto").stop().animate({opacity: 1}, 500);
+              $("#EuropeanInfo").css("z-index", -1);
            });
            $("#SingaporePhoto").hover(function () {
               $("#SingaporePhoto").stop().animate({opacity: .3}, 200);
+              $("#AsianInfo").css("z-index", 2);
            }, function () {
               $("#SingaporePhoto").stop().animate({opacity: 1}, 500);
+              $("#AsianInfo").css("z-index", -1);
            });
         });
      </script>
@@ -54,7 +58,7 @@
             <a href="asia.html"><img class="responsiveDestinations" id="SingaporePhoto" src="singapore.jpg">   </img></a>
         </center>
     </div>
-    <div class="rowDestinations" style="margin-top: -35%, width: 100%, ">
+    <div class="rowDestinations" style="margin-top: -35%; width: 100%; z-index: -1">
         <center>
             <h1 class="responsiveDestinations" id="EuropeanInfo">European</h1>
             <h1 class="responsiveDestinations" id="AsianInfo">Asian</h1>
