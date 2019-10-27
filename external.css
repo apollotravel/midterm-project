@@ -118,7 +118,7 @@ div.city_name{
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  height: 65%;
+  height: 50%;
 }
 
 .responsiveDestinations {
@@ -147,7 +147,7 @@ div.city_name{
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
-       height: 65%;
+       height: 50%;
     }
 }
 
