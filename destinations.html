@@ -10,10 +10,8 @@
         $(document).ready(function () {
            $("#ParisPhoto").hover(function () {
               $("#ParisPhoto").stop().animate({opacity: .3}, 200);
-              $("#ParisPhoto").HTML("European Destinations");
            }, function () {
-              $("#ParisPhoto").stop().amimate({opacity: 1}, 500);
-              $("#ParisPhoto").HTML(" ");
+              $("#ParisPhoto").stop().amimate({opacity: 1}, 200);
            });
         });
      </script>
@@ -50,8 +48,14 @@
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <div class="rowDestinations">
         <center>
+          <div>
             <a href="europe.html"><img class="responsiveDestinations" id="ParisPhoto" src="paris.jpg"> </img></a>
+          <h1> </h1>
+          </div>
+          <div>
             <a href="asia.html"><img class="responsiveDestinations" id="SingaporePhoto" src="singapore.jpg"> </img></a>
+      <h1> </h1>
+          </div>
         </center>
     </div>
  </body>
