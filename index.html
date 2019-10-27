@@ -6,6 +6,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="utf-8">
     <title>COMP 20 - MIDTERM PROJECT - HOME</title>
+    <style>
+        [class*="city_column"] {
+              width: 100%;
+        }
+
+        @media only screen and (min-width:560px){
+            .city_column{
+                width: 33.33%;
+            }
+        }
+        @media only screen and (max-width: 805px){
+            .trend{
+                padding-top: 100px;
+            }
+        }
+    </style>
 
   </head>
   <body>
@@ -27,7 +43,7 @@
             <a class="notCurrentTab" href="contact.html">CONTACT</a>
           </li>
           <li>
-            <a class="notCurrentTab" href="about.html" style="margin-right: 155px;">ABOUT</a>
+            <a class="notCurrentTab" href="about.html">ABOUT</a>
           </li>
         </ul>
       </nav>
@@ -35,7 +51,7 @@
 
     <br style = "line-height: 10px">
 
-    <h2 style ="font-size: 40px; margin-top: 175px; text-align: center;">Trending destinations</h2>
+    <h2 class = "trend" style ="font-size: 40px; margin-top: 175px; text-align: center;">Trending destinations</h2>
     <div class = "row">
         <div class = "city_column">
             <img src="https://lonelyplanetimages.imgix.net/a/g/hi/t/c81f09d36451a030f40f459726f31a96-barcelona.jpeg?sharp=10&vib=20&w=1200" alt="Barcelona" style="width:100%; height: 200px; border: solid 3px #FF9B42;">

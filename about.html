@@ -20,7 +20,7 @@
         top: 80px;
         margin-left: 10px;
         margin-right: 10px;
-        width: 20%;
+        width: 100%;
       }
       .aboutParagraphContainer {
         width: 60%;
@@ -54,6 +54,28 @@
           background-color: #254E70; color: #FF9B42; transform: rotateY(180deg);
           text-align: center;
       }
+      [class*="aboutParagraphContainer"] {
+              width: 80%;
+      }
+
+      @media only screen and (max-width:560px){
+            .aboutParagraphContainer {
+                width: 60%;
+            }
+            h2{
+                padding-top: 100px;
+            }
+
+            .teamContainer{
+                margin-left: 100px;
+            }
+      }
+
+      @media only screen and (min-width: 560px){
+            .memberContainer{
+                width: 20%; 
+            }
+      }
     </style>
 
   </head>
@@ -76,7 +98,7 @@
             <a class="notCurrentTab" href="contact.html">CONTACT</a>
           </li>
           <li>
-            <a class="currentTab" style="margin-right: 155px;">ABOUT</a>
+            <a class="currentTab">ABOUT</a>
           </li>
         </ul>
       </nav>
