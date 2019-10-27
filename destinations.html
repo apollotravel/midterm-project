@@ -7,9 +7,12 @@
     <title>COMP 20 - MIDTERM PROJECT - ABOUT US</title>
 
      <script type="text/javascript">
-         $(".responsiveDestinations").hover(function() {
+         $(".responsiveDestinations").mouseover(function() {
               $(".responsiveDestinations").blur();                        
          });
+         function infoAbout() {
+            $(".responsiveDestinations").blur();              
+         }
      </script>
   </head>
   <body>
@@ -44,8 +47,8 @@
     <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <div class="rowDestinations">
         <center>
-            <a href="europe.html"><img class="responsiveDestinations" id="Paris Photo" src="paris.jpg"> </img></a>
-            <a href="asia.html"><img class="responsiveDestinations" id="Singapore Photo" src="singapore.jpg"> </img></a>
+            <a href="europe.html" onHover="return infoAbout()"><img class="responsiveDestinations" id="Paris Photo" src="paris.jpg"> </img></a>
+            <a href="asia.html" onHover="return infoAbout()"><img class="responsiveDestinations" id="Singapore Photo" src="singapore.jpg"> </img></a>
         </center>
     </div>
  </body>
