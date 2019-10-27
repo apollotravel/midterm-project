@@ -113,23 +113,22 @@ div.city_name{
     text-align: center;
 }
 
-.rowDestinations
-{
-   margin-top: -10%;
-   display: inline-block;
-   margin-left: auto;
-   margin-right: auto;
-   height: 45%;
+.rowDestinations {
+  margin-top: 4%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 65%;
 }
 
 .responsiveDestinations {
-       width: 45%;
-       height: 100%;
-       margin-left: 2%;
-       margin-top: -10%;
-       border-radius: 0.3%;
-       border-style: groove;
-       border-color: #000;
+   width: 45%;
+   height: 100%;
+   margin-left: 2%;
+   margin-top: -10%;
+   border-radius: 0.3%;
+   border-style: groove;
+   border-color: #000;
 }
 
 @media only screen and (min-width: 850px) {
@@ -144,11 +143,11 @@ div.city_name{
        border-color: #000;
     }
     .rowDestinations {
-       margin-top: -10%;
+       margin-top: 4%;
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
-       height: 140%;
+       height: 65%;
     }
 }
 
