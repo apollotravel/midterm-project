@@ -7,18 +7,18 @@
     <title>COMP 20 - MIDTERM PROJECT - ABOUT US</title>
 
      <script type="text/javascript">
-         $("#ParisPhoto").mouseover(function() {
-              $("#ParisPhoto").blur();
-              $("#ParisPhoto").html("European Destinations");
-         }, function() {
-              $("#ParisPhoto").html("");
-         });
-         $("#SingaporePhoto").mouseover(function() {
-              $("#SingaporePhoto").blur();
-              $("#SingaporePhoto").html("Asian Destinations");
-         }, function() {
-              $("#SingaporePhoto").html("");
-         });
+        $(document).ready(function () {
+           $("#ParisPhoto").hover(function () {
+              $("#ParisPhoto").stop().animate({opacity: .3}, 200);
+           }, function () {
+              $("#ParisPhoto").stop().animate({opacity: 1}, 500);
+           });
+           $("#SingaporePhoto").hover(function () {
+              $("#SingaporePhoto").stop().animate({opacity: .3}, 200);
+           }, function () {
+              $("#SingaporePhoto").stop().animate({opacity: 1}, 500);
+           });
+        });
      </script>
   </head>
   <body>
