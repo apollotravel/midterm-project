@@ -32,38 +32,28 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  border-radius: 5px;
+  background-color: #fcfcfc;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .container {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+.container {
+  text-align: center;
+  padding: 3px 16px;
+  margin: 0px;
 }
 
 .title {
   color: grey;
 }
 
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
 </style>
   </head>
   <body>
@@ -96,58 +86,64 @@ html {
 <br>
 <div class="row">
   <div class="column">
-    <div class="card">
-      <h2>Paris</h2>
+    <div class="card" style="height: 675px">
+      <h2 style="text-align: center">Paris</h2>
       <img src="paris.jpg" alt="Paris" style="width:100%">
       <div class="container">
         <p class="title">Paris, France</p>
-        <p>Eiffel Tower: The iconic landmark in the city, grab some friends and walk up the stairs for breathtaking views or have a picnic on the gardens.</p>
-        <p>Palace of Versailles: Visit Louis XIV's royal residence and take in the French and English architecture.</p>
+        <p>Eiffel Tower: The iconic landmark in the city, grab some friends and walk up the stairs for a breathtaking view or enjoy a picnic in the gardens.</p>
+        <p>Palace of Versailles: Visit Louis XIV's royal residence and take in the grand French and English architecture.</p>
         <p>Louvre Museum: World's largest art museum and a historic momument in France located on the right bank of Seine.</p>
         <p>Champs-Élysées: Visit for premier shopping, dining, and historic landmarks.</p>
       </div>
+      <br>
     </div>
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card" style="height: 675px">
       <div class="container">
         <h2>London</h2>
         <p class="title">London, United Kingdom</p>
         <p>Big Ben: Huge clock tower located in north end of London.</p>
         <p>Palace of Westminster: Architectural masterpiece housing the UK parliament.</p>
-        <p>Hyde Park: Acres of greenery located in Central London. It is the perfect place to stroll with loved one's on a sunny day.</p>
-        <p>London Eye: A cantilevered observation wheel on the South Bank of the River Thames in London with stunning views of the city.</p>
+        <p>Hyde Park: Acres of greenery located in Central London. The perfect place to stroll with loved one's on a sunny day.</p>
+        <p>London Eye: An observation wheel on the South Bank of the River Thames in London with stunning views of the city.</p>
+        <br>
       </div>
      <img src="london.jpg" alt="London" style="width:100%">
+     <br><br><br><br>
     </div>
   </div>
   <div class="column">
-    <div class="card">
-   	  <h2>Budapest</h2>
+    <div class="card" style="height: 675px">
+   	  <h2 style="text-align: center">Budapest</h2>
       <img src="budapest.jpg" alt="Budapest" style="width:100%">
       <div class="container">
         <p class="title">Budapest, Hungary</p>
         <p>Széchenyi Thermal Bath: The largest medicinal bath in Europe with water sourced from two thermal springs.  </p>
         <p>Fisherman's Bastion: One of the most important tourist attractions due to the unique panorama of Budapest from the Neo-Romanesque lookout terraces.</p>
-        <p>Central Market Hall: Overtop the Han River, it is the first double-deck bridge in South Korea. </p>
+        <p>Central Market Hall: A neogothic hall with groceries and souvenirs</p>
         <p>Buda Castle: The historical castle and palace complex of the Hungarian kings in Budapest.  </p>
       </div>
+      <br><br>
     </div>
   </div>
   <div class="column">
-    <div class="card">
+    <div class="card" style="height: 675px">
       <div class="container">
         <h2>Athens</h2>
         <p class="title">Athens, Greece</p>
         <p>Kalamaki Beach: Sunny beach perfect for getting your tan on.</p>
         <p>Acropolis: Ancient citadel located on a rocky outcrop above the city of Athens with views of the historical city.</p>
         <p>Plaka: Narrow cobblestone streets lined with tiny shops selling jewelry, clothes and local ceramics.  </p>
-        <p>Parthenon: Former temple on the Athenian Acropolis, Greece, dedicated to the goddess Athena.</p>
+        <p>Parthenon: Former temple on the Athenian Acropolis. Dedicated to the goddess Athena.</p>
       </div>
      <img src="athens.jpeg" alt="Athens" style="width:100%">
+     <br><br>
     </div>
   </div>
 </div>
+<br> <br> <br> <br>
     <footer>
       © Copyright 2050 by nobody. All rights reversed. Website created by Angela Maliakal, Brian Savage, Daniel Lee and Eric Duanmu.
     </footer>
