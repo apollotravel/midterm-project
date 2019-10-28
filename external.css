@@ -103,7 +103,7 @@ div.city_name{
 }
 
 .rowDestinations {
-  margin-top: -5%;
+  margin-top: -4%;
   margin-left: auto;
   margin-right: auto;
   height: 45%;
@@ -125,7 +125,7 @@ div.city_name{
        margin-top: -10%;
     }
     .rowDestinations {
-       margin-top: -5%;
+       margin-top: -4%;
        display: inline-block;
        margin-left: auto;
        margin-right: auto;
