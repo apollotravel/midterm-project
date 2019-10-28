@@ -10,14 +10,22 @@
      <script type="text/javascript">
         $(document).ready(function () {
            $("#ParisPhoto").hover(function () {
-              $("#ParisPhoto").stop().animate({opacity: .3, z-index: -100}, 200);
+              $("#ParisPhoto").stop().animate({opacity: .3}, 200, function() {
+                $("#ParisPhoto").css('z-index',100)
+              });
            }, function () {
-              $("#ParisPhoto").stop().animate({opacity: 1, z-index: 100}, 500);
+              $("#ParisPhoto").stop().animate({opacity: 1}, 500, function() {
+                $("#ParisPhoto").css('z-index',-100)
+              });
            });
            $("#SingaporePhoto").hover(function () {
-              $("#SingaporePhoto").stop().animate({opacity: .3, z-index: -100}, 200);
+              $("#SingaporePhoto").stop().animate({opacity: .3}, 200, function() {
+                $("#SingaporePhoto").css('z-index',100)
+              });
            }, function () {
-              $("#SingaporePhoto").stop().animate({opacity: 1, z-index: 100}, 500);
+              $("#SingaporePhoto").stop().animate({opacity: 1}, 500, function() {
+                $("#SingaporePhoto").css('z-index',-100)
+              });
            });
           
            $("#ParisPhoto").hover(function () {
