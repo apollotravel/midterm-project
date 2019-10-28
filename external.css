@@ -97,11 +97,6 @@ input[type=submit]:hover {
     float: left; width: 33.33%; padding: 5px;
 }
 
-@media screen and (max-width: 500px){
-     .city_column{
-          width: 100%;
-     }
-}
 div.city_name{
     padding: 15px;
     text-align: center;
