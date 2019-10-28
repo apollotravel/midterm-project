@@ -109,7 +109,6 @@ div.city_name{
 
 .rowDestinations {
   margin-top: 4%;
-  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   height: 45%;
@@ -128,7 +127,7 @@ div.city_name{
        width: 45%;
        height: 100%;
        margin-left: 2%;
-       margin-top: -10%;
+       margin-top: -30%;
     }
     .rowDestinations {
        margin-top: 4%;
