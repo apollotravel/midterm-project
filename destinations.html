@@ -29,14 +29,14 @@
            });
           
            $("#ParisPhoto").hover(function () {
-              $("#EuropeanInfo").stop().animate({opacity: 10000}, 200);
+              $("#EuropeanInfo").css("opacity", 1);
            }, function () {
-              $("#EuropeanInfo").stop().animate({opacity: 0}, 500);
+              $("#EuropeanInfo").css("opacity", 0);
            });
            $("#SingaporePhoto").hover(function () {
-              $("#AsianInfo").stop().animate({opacity: 10000}, 200);
+              $("#AsianInfo").css("opacity", 1);
            }, function () {
-              $("#AsianInfo").stop().animate({opacity: 0}, 500);
+              $("#AsianInfo").css("opacity", 0);
            });
         });
      </script>
