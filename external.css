@@ -1,30 +1,33 @@
 body, html {
   font-family: sans-serif;
-  background-color: #b0edf5;
+  background-color: #FFF;
 }
 h1 {
-  color: #FF9B42;
-  font-size: 36px;
-  text-align: center;
+  font-family: 'Bitter', serif;
+  color: #000;
+  font-size: 48px;
+  margin-left: 110px;
+  margin-bottom: 0px;
 }
 nav {
   position: fixed;
-  background-color: #254E70;
-  border: solid 3px #FF9B42;
+  background-color: #FFF;
+  border-bottom: solid 3px #000;
   font-family: sans-serif;
   padding: 5px 0;
-  text-align: center;
   width: 100%;
 }
 nav a {
-  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #000;
   font-size: 19px;
   text-decoration: none;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 5px;
-  margin-left: 80px;
-  margin-right: 80px;
-  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 nav ul {
   text-decoration: none;
@@ -135,7 +138,7 @@ div.city_name{
 
 header {
   z-index: 10;
-  background-color: #254E70;
+  background-color: #FFF;
   position: fixed;
   width: 100%;
   top: 0;
@@ -146,17 +149,18 @@ header {
 footer {
   position: fixed;
   width: 100%;
-  font-size: 16px;
-  background-color: #b0edf5;
+  font-size: 10px;
+  background-color: #FFF;
   bottom: 0;
   left: 2px;
   right: 0;
 }
 
 .currentTab {
-  color: #FF9B42;
+  color: #000;
+  border: dashed 1px #636363;
 }
 
 .notCurrentTab:hover {
-  color: #FF9B42;
+  color: #636363;
 }
