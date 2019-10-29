@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-
+    <link href="https://fonts.googleapis.com/css?family=Bitter|Jomolhari|Quicksand|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="external.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset="utf-8">
@@ -27,7 +27,7 @@
                 $("#SingaporePhoto").css("z-index",-100)
               });
            });
-          
+
            $("#ParisPhoto").hover(function () {
               $("#EuropeanInfo").css("opacity", 1);
            }, function () {
@@ -60,23 +60,23 @@
             <a class="notCurrentTab" href="contact.html">CONTACT</a>
           </li>
           <li>
-            <a class="notCurrentTab" href="about.html" style="margin-right: 155px;">ABOUT</a>
+            <a class="notCurrentTab" href="about.html">ABOUT</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     <div class="rowDestinations" style="height: 40%; margin-left: -3%">
         <center>
             <a href="europe.html"><img class="responsiveDestinations" id="ParisPhoto" src="paris.jpg">   </img></a>
             <a href="asia.html"><img class="responsiveDestinations" id="SingaporePhoto" src="singapore.jpg" style="height: 140%">   </img></a>
         </center>
     </div>
-    <div class="rowDestinations" style="margin-top: -100%; width: 100%; z-index: 50">
+    <div class="rowDestinations" style="margin-top: -100%; width: 100%; z-index: 50;">
         <center>
-            <h1 class="responsiveDestinations" id="EuropeanInfo" style="float:left; opacity: 0">Go to European Destinations</h1>
-            <h1 class="responsiveDestinations" id="AsianInfo" style="float:right; opacity: 0" style="border: solid 5px #FF9B42">Go to Asian Destinations</h1>
+            <h2 class="responsiveDestinations" id="EuropeanInfo" style="float:left; opacity: 0; border: dashed 1px #636363; font-family: 'Source Sans Pro', sans-serif;">Go to European Destinations</h1>
+            <h2 class="responsiveDestinations" id="AsianInfo" style="float:right; opacity: 0; border: dashed 1px #636363; font-family: 'Source Sans Pro', sans-serif; margin-right: 43px;">Go to Asian Destinations</h1>
         </center>
     </div>
 
